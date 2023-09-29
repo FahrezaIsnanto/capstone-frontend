@@ -1,0 +1,14 @@
+/* Reset */
+@import "tailwindcss/base";
+
+/* Component */
+@import "tailwindcss/components";
+@import "buttons";
+@import "form";
+@import "fonts";
+
+/* Utilities */
+@import "tailwindcss/utilities";
+.test {
+    color: #169e73;
+}

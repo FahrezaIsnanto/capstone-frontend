@@ -1,0 +1,31 @@
+.btn-primary {
+    @apply w-72 h-14 md:w-full bg-primary hover:bg-primary-dark text-white rounded-3xl flex items-center justify-center font-poppins tracking-widest;
+}
+
+.btn-secondary {
+    @apply w-72 h-14 md:w-full bg-secondary hover:bg-secondary-dark text-white rounded-3xl flex items-center px-5 py-5 justify-center text-sm text-center font-poppins tracking-wide;
+}
+
+.btn-red {
+    @apply w-80 h-16 bg-red-400 hover:bg-red-700 text-white font-bold rounded-3xl flex items-center px-5 py-5 justify-center text-sm text-center;
+}
+
+.btn-green {
+    @apply w-80 h-16 bg-green-600 hover:bg-green-700 text-white font-bold rounded-3xl flex items-center px-5 py-5 justify-center text-sm text-center;
+}
+
+.test {
+    color: #4d5273;
+}
+
+.btn-red {
+    @apply w-72 h-14 md:w-full bg-red-500 hover:bg-red-700 text-white rounded-3xl flex items-center justify-center font-poppins tracking-widest;
+}
+
+.btn-menu {
+    @apply md:w-full bg-orange-600 hover:bg-orange-800 rounded-3xl flex items-center justify-center font-poppins tracking-widest text-white w-36 h-12 mr-2 text-sm uppercase;
+}
+
+.btn-menu-active {
+    @apply md:w-full bg-orange-800 hover:bg-orange-900  flex items-center justify-center font-poppins tracking-widest rounded-3xl text-white w-36 h-12 mr-2 text-xs;
+}

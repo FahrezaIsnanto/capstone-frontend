@@ -1,0 +1,21 @@
+.form-label {
+    @apply mb-2 block text-gray-700 select-none;
+}
+
+.form-input,
+.form-select {
+    @apply p-2 leading-normal block w-full border text-gray-700 bg-white font-sans rounded text-left appearance-none relative focus:border-indigo-400 focus:ring;
+
+    &::placeholder {
+        @apply text-gray-500 opacity-100;
+    }
+}
+
+.form-input.error,
+.form-select.error {
+    @apply border-red-500 focus:ring focus:ring-red-200;
+}
+
+.form-error {
+    @apply text-red-700 mt-2 text-sm;
+}
