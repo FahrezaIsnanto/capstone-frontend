@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    daftarsulfat:
+        build: .
+        container_name: daftarsulfat
+        ports:
+            - "80:80"
+            - "13714:13714"
+        volumes:
+            - .:/var/www/html

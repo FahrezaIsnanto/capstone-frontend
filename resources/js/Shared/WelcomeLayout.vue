@@ -12,7 +12,7 @@
         <div
             class="text-md flex flex-wrap items-center justify-center gap-3 bg-[#fde9b1] px-6 py-4 font-medium"
         >
-            <marquee>📪 Sahabat Menuju Sehat - Ini adalah contoh informasi</marquee>
+            <marquee>📪 Sahabat Menuju Sehat - Pendaftaran Menggunakan Jaminan Admedika Menghubungi (WA) 081-575-757-278</marquee>
         </div>
         <div class="flex justify-end">
             <Link class="mt-5 font-poppins font-light mr-5 hover:underline text-sm mb-10" href="/auth/login">

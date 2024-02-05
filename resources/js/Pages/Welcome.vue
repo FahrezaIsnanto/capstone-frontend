@@ -11,7 +11,7 @@
             <p
                 class="font-poppins text-primary mt-16 text-lg tracking-wide mb-5"
             >
-                Pendaftaran Online
+                Pendaftaran Online 
             </p>
             <h1
                 class="font-bold tracking-wider text-lg md:text-2xl font-poppins text-black mb-5 leading-8 md:leading-10"
@@ -41,10 +41,11 @@
             </p>
     </div>
     <div class="mb-5 md:grid md:grid-cols-12 md:gap-4">
-        <div class="col-span-4 mb-2">
+        <div class="col-span-3 mb-2">
             <div
                 class="max-w-sm rounded-lg overflow-hidden shadow-lg hover:cursor-pointer transform transition duration-500 hover:scale-105 bg-primary h-[220px]"
             >
+                <!-- <img class="w-full" src="/images/status_antrian.png"> -->
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-5 text-white text-center">
                         ANTRIAN POLIKLINIK
@@ -60,10 +61,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-4 mb-2">
+        <div class="col-span-3 mb-2">
             <div
                 class="max-w-sm rounded-lg overflow-hidden shadow-lg hover:cursor-pointer transform transition duration-500 hover:scale-105 bg-primary h-[220px]"
             >
+                <!-- <img class="w-full" src="/images/status_antrian.png"> -->
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-5 text-white text-center">
                         ANTRIAN TOTAL
@@ -79,10 +81,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-4 mb-2">
+        <div class="col-span-3 mb-2">
             <div
                 class="max-w-sm rounded-lg overflow-hidden shadow-lg hover:cursor-pointer transform transition duration-500 hover:scale-105 bg-primary h-[220px]"
             >
+                <!-- <img class="w-full" src="/images/status_antrian.png"> -->
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-5 text-white text-center">
                         JADWAL DOKTER
@@ -95,6 +98,29 @@
                         href="/jadwal_dokter"
                         >👋 LIHAT</Link
                     >
+                </div>
+            </div>
+        </div>
+        <div class="col-span-3 mb-2">
+            <div
+                class="max-w-sm rounded-lg overflow-hidden shadow-lg hover:cursor-pointer transform transition duration-500 hover:scale-105 bg-primary h-[220px]"
+            >
+                <!-- <img class="w-full" src="/images/status_antrian.png"> -->
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-5 text-white text-center">
+                        PANTAU CCTV
+                    </div>
+                    <p class="text-white text-base mb-5 leading-7">
+                        Pantau CCTV online Rumah Sakit Secara Real Time.
+                    </p>
+                    <a class="bg-white text-center text-sm w-full flex justify-center items-center mx-auto p-5 box-border rounded-lg" href="/pantau_cctv">
+                        👋 LIHAT
+                    </a>
+                    <!-- <Link
+                        class="bg-white text-center text-sm w-full flex justify-center items-center mx-auto p-5 box-border rounded-lg"
+                        href="/pantau_cctv"
+                        >👋 LIHAT</Link
+                    > -->
                 </div>
             </div>
         </div>
@@ -122,6 +148,9 @@ export default {
         Link,
         WelcomeImage,
         Contact
+    },
+    props: {
+        
     },
     layout: WelcomeLayout,
 };
